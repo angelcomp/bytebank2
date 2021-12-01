@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class ListaContatos extends StatelessWidget {
-  const ListaContatos({Key? key}) : super(key: key);
+class ContactsList extends StatelessWidget {
+  const ContactsList({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
