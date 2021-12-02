@@ -1,9 +1,10 @@
 
 class Contacts {
+  late int id;
   late String name;
   late int accountNumber;
 
-  Contacts(this.name, this.accountNumber);
+  Contacts(this.id, this.name, this.accountNumber);
 
   @override
   String toString() {
